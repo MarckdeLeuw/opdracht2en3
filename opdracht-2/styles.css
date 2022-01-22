@@ -3,3 +3,67 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+
+/*Opdracht 2.1*/
+.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/*Opdracht2.2*/
+
+.two{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Opdracht 2.3*/
+.three{
+    display: flex;
+    flex-direction: row;
+
+
+}
+.list1{
+    flex: 4;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between ;
+}
+.Edhub{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 6;
+    justify-content: flex-end;
+}
+/*Opdracht 2.4*/
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*Opdracht 2.5*/
+/*@media(min-width: 1200px) {
+    .five{
+        !*zet ze naast elkaar*!
+        display: flex;
+    }*/
+
+.five{
+    display: flex;
+/*    flex-direction: row;*/
+/*    gap: 5px;*/
+    flex-wrap: wrap;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    flex: 30%;
+}
